@@ -1,12 +1,14 @@
+import Navbar from "./layouts/Navbar";
 import './App.css';
 
 function App() {
     return (
-        <div className="App">
-            <h1 className="text-3xl font-bold underline">
-                Hello world!
-            </h1>
-        </div>
+        <main className="flex">
+            <Navbar></Navbar>
+            <section id="content" className={`p-7`}>
+                <h1 className={`font-semibold text-2xl`}>Content page</h1>
+            </section>
+        </main>
     );
 }
 
