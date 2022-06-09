@@ -1,13 +1,11 @@
-import Navbar from "./layouts/Navbar";
+// import Navbar from "./layouts/Navbar";
+import Login from "./components/Login";
 import './App.css';
 
 function App() {
     return (
         <main className="flex">
-            <Navbar></Navbar>
-            <section id="content" className={`p-7`}>
-                <h1 className={`font-semibold text-2xl`}>Content page</h1>
-            </section>
+            <Login></Login>
         </main>
     );
 }
